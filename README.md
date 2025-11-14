@@ -125,9 +125,10 @@ smart-retail
 - **roles** – RBAC structure
 
 SQL files provided:
+```
 - sql/sample.sql  
 - sql/schema.sql
-
+```
 ---
 
 ## ⚙️ Installation Setup
