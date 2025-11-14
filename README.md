@@ -34,65 +34,67 @@ Admin Features
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
---- smart-retail ---
-[api]
-    ├── [auth]
-        ├── login-api.php
-        └── register-api.php
-    ├── products-autocomplete.php
-    └── stock-check.php
-[assets]
-    ├── [css]
-        ├── auth.css
-        └── style.css
-    └── [js]
-        ├── auth.js
-        ├── cart.js
-        ├── dashboard.js
-        ├── dynamic-cart.js
-        ├── enhanced-features.js
-        ├── search-autocomplete.js
-        └── stock-validator.js
-[config]
-    ├── config.php
-    └── database.php
-dashboard.php
-[docs]
-    └── .project_structure_ignore
-index.php
-login.php
-logout.php
-[models]
-    ├── Cart.php
-    ├── Category.php
-    ├── Order.php
-    ├── Product.php
-    └── User.php
-README.md
-register.php
-[sql]
-    ├── sample.sql
-    └── schema.sql
-[utils]
-    └── Auth.php
-[views]
-    ├── [admin]
-        ├── admin-dashboard.php
-        ├── manage-orders.php
-        └── manage-products.php
-    ├── [cart]
-        ├── cart-remove.php
-        ├── cart.php
-        ├── checkout.php
-        └── order-success.php
-    ├── [categories]
-        └── category.php
-    ├── [order]
-        └── orders.php
-    └── [products]
-        └── products.php 
+```
+smart-retail
+├── api
+│   ├── auth
+│   │   ├── login-api.php
+│   │   └── register-api.php
+│   ├── products-autocomplete.php
+│   └── stock-check.php
+├── assets
+│   ├── css
+│   │   ├── auth.css
+│   │   └── style.css
+│   └── js
+│       ├── auth.js
+│       ├── cart.js
+│       ├── dashboard.js
+│       ├── dynamic-cart.js
+│       ├── enhanced-features.js
+│       ├── search-autocomplete.js
+│       └── stock-validator.js
+├── config
+│   ├── config.php
+│   └── database.php
+├── dashboard.php
+├── docs
+│   └── .project_structure_ignore
+├── index.php
+├── login.php
+├── logout.php
+├── models
+│   ├── Cart.php
+│   ├── Category.php
+│   ├── Order.php
+│   ├── Product.php
+│   └── User.php
+├── README.md
+├── register.php
+├── sql
+│   ├── sample.sql
+│   └── schema.sql
+├── utils
+│   └── Auth.php
+└── views
+    ├── admin
+    │   ├── admin-dashboard.php
+    │   ├── manage-orders.php
+    │   └── manage-products.php
+    ├── cart
+    │   ├── cart-remove.php
+    │   ├── cart.php
+    │   ├── checkout.php
+    │   └── order-success.php
+    ├── categories
+    │   └── category.php
+    ├── order
+    │   └── orders.php
+    └── products
+        └── products.php
+```
 
 ---
 
